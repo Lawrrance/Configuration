@@ -1,5 +1,6 @@
 # Configuration
 To introduce configurations about DL project.
+
 https://github.com/ChenyangLEI/Fully-Automatic-Video-Colorization-with-Self-Regularization-and-Diversity
 # Guide 指南
 ## Requirement 要求
@@ -28,6 +29,6 @@ cudnn 7.0
 ### 5.Shadowsocks
       Usage:
       
-       http://m.knowsky.com/990432.html
+      http://m.knowsky.com/990432.html
        
-       https://segmentfault.com/a/1190000011224139
+      https://segmentfault.com/a/1190000011224139
