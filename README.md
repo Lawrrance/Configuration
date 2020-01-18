@@ -25,3 +25,9 @@ cudnn 7.0
 ### 2.Anaconda & Spyder
 ### 3.TensorFlow & OpenCV
 ### 4.Cuda & Cudnn
+### 5.Shadowsocks
+      Usage:
+      
+       http://m.knowsky.com/990432.html
+       
+       https://segmentfault.com/a/1190000011224139
