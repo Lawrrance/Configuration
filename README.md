@@ -17,18 +17,29 @@ cudnn 7.0
 更换512GB固态硬盘，划分盘符安装Win10，ubuntu双系统
 ### 1.Ubuntu 16
 
-      1.与win boot共存 https://zhuanlan.zhihu.com/p/81961750
+      1.与win boot共存 
+https://zhuanlan.zhihu.com/p/81961750
   
       2.安装输入法，浏览器，WPS
   
-      3.安装显卡驱动 https://zhuanlan.zhihu.com/p/59618999
+      3.安装显卡驱动 
+      
+https://zhuanlan.zhihu.com/p/59618999
   
 ### 2.Anaconda & Spyder
+
+https://blog.csdn.net/u012243626/article/details/82469174 Anaconda安装
+
+      安装图形界面
+      
+            conda install -c anaconda anaconda-navigator
+            anaconda-navigator
+            
 ### 3.TensorFlow & OpenCV
 ### 4.Cuda & Cudnn
 ### 5.Shadowsocks
       Usage:
       
-      http://m.knowsky.com/990432.html
+http://m.knowsky.com/990432.html
        
-      https://segmentfault.com/a/1190000011224139
+https://segmentfault.com/a/1190000011224139
