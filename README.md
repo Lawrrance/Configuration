@@ -34,11 +34,27 @@ https://blog.csdn.net/u012243626/article/details/82469174 Anaconda安装
       
             conda install -c anaconda anaconda-navigator
             anaconda-navigator
+            conda update     # 更新组件
+      安装桌面图标
+	
+### Q:在Terminal中输入Python，调用的是系统自带的Py2.7
+	A:Anaconda Initiate将环境变量复位了
+	配置anaconda环境：
+	vim ~/.bashrc
+	最后一行添加：export PATH=/home/XXX/anaconda3/bin:$PATH
+	XXX是你的用户名
+	保存并： source ~/.bashrc
+            
+            
+          
             
 ### 3.TensorFlow & OpenCV
+https://blog.csdn.net/qq_31610789/article/details/80642709 Tensor安装
 ### 4.Cuda & Cudnn
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal
 ### 5.Shadowsocks
-      Usage:
+
+Usage:
       
 http://m.knowsky.com/990432.html
        
