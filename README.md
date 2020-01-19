@@ -6,8 +6,8 @@ https://github.com/ChenyangLEI/Fully-Automatic-Video-Colorization-with-Self-Regu
 # Warnning ：注意选择经过测试的构建配置 
 ## 可用的版本搭配
                                 python                                   cuDNN   CUDA         
-    	tensorflow_gpu-1.5.0	2.7、3.3-3.6	GCC 4.8	 Bazel 0.8.0	7	9    # Recommendation
-    	tensorflow_gpu-1.4.0	2.7、3.3-3.6	GCC 4.8	 Bazel 0.5.4	6	8    # Recommendation
+	tensorflow_gpu-1.5.0	2.7、3.3-3.6	GCC 4.8	 Bazel 0.8.0	7	9    # Recommendation
+	tensorflow_gpu-1.4.0	2.7、3.3-3.6	GCC 4.8	 Bazel 0.5.4	6	8    # Recommendation
 	tensorflow_gpu-1.13.1	2.7、3.3-3.6	GCC 4.8	Bazel 0.19.2	7.4	10.0
 	tensorflow_gpu-1.12.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.15.0	7	9
 	tensorflow_gpu-1.11.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.15.0	7	9
