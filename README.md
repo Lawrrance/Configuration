@@ -3,6 +3,28 @@ To introduce configurations about DL project.
 
 https://github.com/ChenyangLEI/Fully-Automatic-Video-Colorization-with-Self-Regularization-and-Diversity
 # Guide 指南
+# Warnning ：注意选择经过测试的构建配置 
+# 可用的版本搭配
+#                       python                                   cuDNN   CUDA         
+# tensorflow_gpu-1.5.0	2.7、3.3-3.6	GCC 4.8	 Bazel 0.8.0	7	9
+# tensorflow_gpu-1.4.0	2.7、3.3-3.6	GCC 4.8	 Bazel 0.5.4	6	8
+tensorflow_gpu-1.13.1	2.7、3.3-3.6	GCC 4.8	Bazel 0.19.2	7.4	10.0
+tensorflow_gpu-1.12.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.15.0	7	9
+tensorflow_gpu-1.11.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.15.0	7	9
+tensorflow_gpu-1.10.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.15.0	7	9
+tensorflow_gpu-1.9.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.11.0	7	9
+tensorflow_gpu-1.8.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.10.0	7	9
+tensorflow_gpu-1.7.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.9.0	7	9
+tensorflow_gpu-1.6.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.9.0	7	9
+tensorflow_gpu-1.5.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.8.0	7	9
+tensorflow_gpu-1.4.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.5.4	6	8
+tensorflow_gpu-1.3.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.4.5	6	8
+tensorflow_gpu-1.2.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.4.5	5.1	8
+tensorflow_gpu-1.1.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.4.2	5.1	8
+tensorflow_gpu-1.0.0	2.7、3.3-3.6	GCC 4.8	Bazel 0.4.2	5.1	8
+
+https://tensorflow.google.cn/install/source#linux
+
 ## Requirement 要求
 Ubuntu 16.04
 
@@ -15,7 +37,7 @@ Cuda 8.0
 cudnn 7.0
 ## Installation 安装
 更换512GB固态硬盘，划分盘符安装Win10，ubuntu双系统
-### 1.Ubuntu 16 
+### 1.Ubuntu 18 
 
       1.与win boot共存 
 https://zhuanlan.zhihu.com/p/81961750
@@ -40,7 +62,7 @@ https://zhuanlan.zhihu.com/p/59618999
 	    
       安装桌面图标
 	
-### Q:在Terminal中输入Python，调用的是系统自带的Py2.7
+#### Q:在Terminal中输入Python，调用的是系统自带的Py2.7
 	A:Anaconda Initiate将环境变量复位了
 	配置anaconda环境：
 	vim ~/.bashrc
@@ -66,9 +88,9 @@ https://www.jianshu.com/p/dbeb1f806e7d
 
 https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux
 
-### Q.权限更改 ChangeMod
+#### Q.权限更改 ChangeMod
 	https://www.twblogs.net/a/5d49ce77bd9eee5327fbd676/zh-cn
-### Q.验证过程中，在/usr/src中未找到Nvidia samples
+#### Q.验证过程中，在/usr/src中未找到Nvidia samples
 	在官方下载页面另外下载 cuDNN Code Samples and User Guide for Ubuntu18.04 (Deb)
 	https://askubuntu.com/questions/1021837/cuda-and-cudnn-install-where-is-cudnn-samples-v7
 ### 5.Shadowsocks
