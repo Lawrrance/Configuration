@@ -27,8 +27,10 @@ https://zhuanlan.zhihu.com/p/81961750
 https://zhuanlan.zhihu.com/p/59618999
   
 ### 2.Anaconda & Spyder
-
-https://blog.csdn.net/u012243626/article/details/82469174 Anaconda安装
+	流程参考
+	https://blog.csdn.net/u012243626/article/details/82469174 
+	Anaconda安装
+	https://docs.anaconda.com/anaconda/
 
       安装图形界面
       
