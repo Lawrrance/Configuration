@@ -64,13 +64,10 @@ https://www.jianshu.com/p/dbeb1f806e7d
 
 https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux
 
-	权限更改 ChangeMod
-
+### Q.权限更改 ChangeMod
 	https://www.twblogs.net/a/5d49ce77bd9eee5327fbd676/zh-cn
-	
-	
-	
-	
+### Q.验证过程中，在/usr/src中未找到Nvidia samples
+	在官方下载页面另外下载 cuDNN Code Samples and User Guide for Ubuntu18.04 (Deb)
 	https://askubuntu.com/questions/1021837/cuda-and-cudnn-install-where-is-cudnn-samples-v7
 ### 5.Shadowsocks
 
