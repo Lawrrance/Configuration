@@ -37,7 +37,7 @@ Cuda 8.0
 cudnn 7.0
 ## Installation 安装
 更换512GB固态硬盘，划分盘符安装Win10，ubuntu双系统
-### 1.Ubuntu 18 
+### 1.Ubuntu 16.04
 
       1.与win boot共存 
 https://zhuanlan.zhihu.com/p/81961750
