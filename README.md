@@ -15,7 +15,7 @@ Cuda 8.0
 cudnn 7.0
 ## Installation 安装
 更换512GB固态硬盘，划分盘符安装Win10，ubuntu双系统
-### 1.Ubuntu 16
+### 1.Ubuntu 16 
 
       1.与win boot共存 
 https://zhuanlan.zhihu.com/p/81961750
@@ -35,6 +35,7 @@ https://blog.csdn.net/u012243626/article/details/82469174 Anaconda安装
             conda install -c anaconda anaconda-navigator
             anaconda-navigator
             conda update     # 更新组件
+	    
       安装桌面图标
 	
 ### Q:在Terminal中输入Python，调用的是系统自带的Py2.7
@@ -51,12 +52,33 @@ https://blog.csdn.net/u012243626/article/details/82469174 Anaconda安装
 ### 3.TensorFlow & OpenCV
 https://blog.csdn.net/qq_31610789/article/details/80642709 Tensor安装
 ### 4.Cuda & Cudnn
+官方安装CUAD
+
 https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal
+
+验证CUDA
+
+https://www.jianshu.com/p/dbeb1f806e7d
+
+官方安装CUDnn
+
+https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux
+
+	权限更改 ChangeMod
+
+	https://www.twblogs.net/a/5d49ce77bd9eee5327fbd676/zh-cn
+	
+	
+	
+	
+	https://askubuntu.com/questions/1021837/cuda-and-cudnn-install-where-is-cudnn-samples-v7
 ### 5.Shadowsocks
 
 Usage:
       
 http://m.knowsky.com/990432.html
+
+主要步骤：
        
 https://segmentfault.com/a/1190000011224139
 
