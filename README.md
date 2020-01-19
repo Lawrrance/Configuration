@@ -59,3 +59,11 @@ Usage:
 http://m.knowsky.com/990432.html
        
 https://segmentfault.com/a/1190000011224139
+
+Official Tutorial
+
+Installation:
+https://shadowsockshelp.github.io/Shadowsocks/linux.html
+
+Browser Config:
+https://shadowsockshelp.github.io/Shadowsocks/Firefox.html
