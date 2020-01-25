@@ -36,43 +36,67 @@ Cuda 8.0
 
 cudnn 7.0
 ## Installation 安装
-更换512GB固态硬盘，划分盘符安装Win10，ubuntu双系统
 ### 1.Ubuntu 16.04
 
-      1.与win boot共存 
-      https://zhuanlan.zhihu.com/p/81961750
+1.与win boot共存 
+https://zhuanlan.zhihu.com/p/81961750
   
-      2.安装输入法，浏览器，WPS
+2.安装输入法，浏览器，WPS
   
-      3.安装显卡驱动 
-      https://zhuanlan.zhihu.com/p/59618999
+3.安装显卡驱动 
+https://zhuanlan.zhihu.com/p/59618999
       
-      4.备份
+4.备份
       
 ### 2.Cuda8 & Cudnn
-	官方安装CUAD
+选择版本，官方安装CUAD
 
-	https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal
-	
-	
+https://developer.nvidia.com/cuda-toolkit-archive
 
-	验证CUDA
+安装显卡驱动
 
-	https://www.jianshu.com/p/dbeb1f806e7d
+https://www.linuxidc.com/Linux/2018-09/154292.htm
 
-	官方安装CUDnn
+安装多版本gcc
 
-	https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux
+https://www.lagou.com/lgeduarticle/25406.html
+
+配置CUDA环境变量
+
+https://blog.csdn.net/QLULIBIN/article/details/80728355
+
+验证CUDA
+
+https://www.jianshu.com/p/dbeb1f806e7d
 
 #### Q.权限更改 ChangeMod
 	https://www.twblogs.net/a/5d49ce77bd9eee5327fbd676/zh-cn
 #### Q.验证过程中，在/usr/src中未找到Nvidia samples
 	在官方下载页面另外下载 cuDNN Code Samples and User Guide for Ubuntu18.04 (Deb)
 	https://askubuntu.com/questions/1021837/cuda-and-cudnn-install-where-is-cudnn-samples-v7      
+
+官方安装CUDnn
+
+https://developer.nvidia.com/rdp/cudnn-archive
+
+https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux
+
+#### Q.libcudnn.so.7 is not a symbolic link
+	https://devtalk.nvidia.com/default/topic/1032114/tensorrt/tensorrt-4-installation-libcudnn-so-7-is-not-a-symbolic-link/
           
-            
 ### 3.TensorFlow & OpenCV
 
+官方安装TF
+
+https://tensorflow.google.cn/install/pip
+
+## 注意：可以直接使用对应的python版本和pip版本安装（python3.4）e.g pip3 install tensorflow-gpu==1.2.0
+
+安装Opcv
+
+https://docs.opencv.org/3.4.2/d7/d9f/tutorial_linux_install.html
+
+https://blog.csdn.net/cocoaqin/article/details/78163171
 
 ### 4.Shadowsocks
 
@@ -91,6 +115,8 @@ https://shadowsockshelp.github.io/Shadowsocks/linux.html
 
 Browser Config:
 https://shadowsockshelp.github.io/Shadowsocks/Firefox.html
+
+## 注意：先要运行SS，测试延时，此外浏览器翻墙和终端翻墙要分别配置
 
 
 
