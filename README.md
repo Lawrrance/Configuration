@@ -70,10 +70,14 @@ https://blog.csdn.net/QLULIBIN/article/details/80728355
 https://www.jianshu.com/p/dbeb1f806e7d
 
 #### Q.权限更改 ChangeMod
-	https://www.twblogs.net/a/5d49ce77bd9eee5327fbd676/zh-cn
+
+https://www.twblogs.net/a/5d49ce77bd9eee5327fbd676/zh-cn
+
 #### Q.验证过程中，在/usr/src中未找到Nvidia samples
-	在官方下载页面另外下载 cuDNN Code Samples and User Guide for Ubuntu18.04 (Deb)
-	https://askubuntu.com/questions/1021837/cuda-and-cudnn-install-where-is-cudnn-samples-v7      
+
+在官方下载页面另外下载 cuDNN Code Samples and User Guide for Ubuntu18.04 (Deb)
+
+https://askubuntu.com/questions/1021837/cuda-and-cudnn-install-where-is-cudnn-samples-v7      
 
 官方安装CUDnn
 
@@ -82,7 +86,8 @@ https://developer.nvidia.com/rdp/cudnn-archive
 https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux
 
 #### Q.libcudnn.so.7 is not a symbolic link
-	https://devtalk.nvidia.com/default/topic/1032114/tensorrt/tensorrt-4-installation-libcudnn-so-7-is-not-a-symbolic-link/
+
+https://devtalk.nvidia.com/default/topic/1032114/tensorrt/tensorrt-4-installation-libcudnn-so-7-is-not-a-symbolic-link/
           
 ### 3.TensorFlow & OpenCV
 
@@ -90,7 +95,9 @@ https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux
 
 https://tensorflow.google.cn/install/pip
 
-## 注意：可以直接使用对应的python版本和pip版本安装（python3.4）e.g pip3 install tensorflow-gpu==1.2.0
+## 注意：可以直接使用对应的python版本和pip版本安装（python3.4）
+
+## e.g pip3 install tensorflow-gpu==1.2.0
 
 安装Opcv
 
