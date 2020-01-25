@@ -145,3 +145,6 @@ python3 main_woflow.py --model ckpt_woflow --use_gpu 0 --test_dir test_sample0
 （my GPU == Nvidia 960m ,gpu 0）
 
 3.在./ckpt_woflow/ folder 查看结果
+
+![result](https://user-images.githubusercontent.com/35630999/73123627-dce38d00-3fcc-11ea-877d-1195c51c668a.png)
+
