@@ -125,8 +125,23 @@ https://shadowsockshelp.github.io/Shadowsocks/Firefox.html
 
 ## 注意：先要运行SS，测试延时，此外浏览器翻墙和终端翻墙要分别配置
 
+# 测试项目
 
+## 注意：使用python3解释器
+1.下载并解压模型
 
+python3 download_models.py
 
-            
-      
+unzip ckpt_woflow.zip
+
+2.运行测试
+
+python main_woflow.py --model ckpt_woflow --use_gpu 1 --test_dir /PATH/TO/TEST/DIR
+
+e.g.
+
+python3 main_woflow.py --model ckpt_woflow --use_gpu 0 --test_dir test_sample0
+
+（my GPU == Nvidia 960m ,gpu 0）
+
+3.在./ckpt_woflow/ folder 查看结果
